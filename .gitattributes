@@ -1,0 +1,7 @@
+*.cs linguist-language=C#
+*.shader linguist-language=HLSL
+*.meta linguist-generated
+Library/** linguist-generated
+Obj/** linguist-generated
+Build/** linguist-generated
+Temp/** linguist-generated
