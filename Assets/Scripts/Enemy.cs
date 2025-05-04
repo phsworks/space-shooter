@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
             transform.position = new Vector3(randomX, 5.5f, 0);
         }
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
-        
+
         if (other.tag == "Laser")
         {
             Destroy(other.gameObject);
