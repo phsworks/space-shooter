@@ -2,19 +2,26 @@
 *.asset linguist-language=Text
 *.unity linguist-language=Text
 *.prefab linguist-language=Text
-*.mat linguist-language=Text
-*.anim linguist-language=Text
 *.controller linguist-language=Text
+*.anim linguist-language=Text
+*.mat linguist-language=Text
 *.physicMaterial linguist-language=Text
 *.inputactions linguist-language=Text
 
-
 *.meta linguist-generated
+
 [Ll]ibrary/** linguist-generated
 [Tt]emp/** linguist-generated
 [Oo]bj/** linguist-generated
 [Bb]uild/** linguist-generated
 UserSettings/** linguist-generated
+.vscode/** linguist-generated
+.idea/** linguist-generated
+
+
+*.cs linguist-language=C#
+*.shader linguist-language=ShaderLab
+
 
 
 
