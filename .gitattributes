@@ -18,4 +18,8 @@ Temp/** linguist-generated
 Obj/** linguist-generated
 Build/** linguist-generated
 UserSettings/** linguist-generated
+*.asset linguist-language=C#
+*.meta linguist-language=Text
+
+
 
