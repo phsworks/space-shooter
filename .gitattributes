@@ -1,25 +1,31 @@
-# Force main language
+# 📌 Dwing juiste taal: jouw echte code
 *.cs linguist-language=C#
+*.shader linguist-language=ShaderLab
 
-# Ignore Unity-generated files for language stats
+# 🚫 Markeer deze types als géén programmeertaal
+*.asset linguist-language=Text
 *.meta linguist-generated
-*.asset linguist-generated
-*.mat linguist-generated
-*.anim linguist-generated
-*.controller linguist-generated
-*.prefab linguist-generated
-*.unity linguist-generated
-*.physicMaterial linguist-generated
-*.inputactions linguist-generated
+*.mat linguist-language=Text
+*.anim linguist-language=Text
+*.controller linguist-language=Text
+*.prefab linguist-language=Text
+*.unity linguist-language=Text
+*.physicMaterial linguist-language=Text
+*.inputactions linguist-language=Text
 
-# Ignore folders
-Library/** linguist-generated
-Temp/** linguist-generated
-Obj/** linguist-generated
-Build/** linguist-generated
+# 🔒 Negeer volledige mappen die ruis geven
+[Ll]ibrary/** linguist-generated
+[Tt]emp/** linguist-generated
+[Oo]bj/** linguist-generated
+[Bb]uild/** linguist-generated
+[Bb]uilds/** linguist-generated
+[Ll]ogs/** linguist-generated
+[Mm]emoryCaptures/** linguist-generated
 UserSettings/** linguist-generated
-*.asset linguist-language=C#
-*.meta linguist-language=Text
+.idea/** linguist-generated
+.vscode/** linguist-generated
+*.m linguist-language=Text
+
 
 
 
