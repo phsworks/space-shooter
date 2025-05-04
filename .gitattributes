@@ -1,30 +1,21 @@
-# 📌 Dwing juiste taal: jouw echte code
-*.cs linguist-language=C#
-*.shader linguist-language=ShaderLab
 
-# 🚫 Markeer deze types als géén programmeertaal
 *.asset linguist-language=Text
-*.meta linguist-generated
+*.unity linguist-language=Text
+*.prefab linguist-language=Text
 *.mat linguist-language=Text
 *.anim linguist-language=Text
 *.controller linguist-language=Text
-*.prefab linguist-language=Text
-*.unity linguist-language=Text
 *.physicMaterial linguist-language=Text
 *.inputactions linguist-language=Text
 
-# 🔒 Negeer volledige mappen die ruis geven
+
+*.meta linguist-generated
 [Ll]ibrary/** linguist-generated
 [Tt]emp/** linguist-generated
 [Oo]bj/** linguist-generated
 [Bb]uild/** linguist-generated
-[Bb]uilds/** linguist-generated
-[Ll]ogs/** linguist-generated
-[Mm]emoryCaptures/** linguist-generated
 UserSettings/** linguist-generated
-.idea/** linguist-generated
-.vscode/** linguist-generated
-*.m linguist-language=Text
+
 
 
 
