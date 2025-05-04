@@ -1,7 +1,21 @@
+# Force main language
 *.cs linguist-language=C#
-*.shader linguist-language=HLSL
+
+# Ignore Unity-generated files for language stats
 *.meta linguist-generated
+*.asset linguist-generated
+*.mat linguist-generated
+*.anim linguist-generated
+*.controller linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
+*.physicMaterial linguist-generated
+*.inputactions linguist-generated
+
+# Ignore folders
 Library/** linguist-generated
+Temp/** linguist-generated
 Obj/** linguist-generated
 Build/** linguist-generated
-Temp/** linguist-generated
+UserSettings/** linguist-generated
+
