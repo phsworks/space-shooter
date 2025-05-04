@@ -7,6 +7,8 @@
 *.mat linguist-language=Text
 *.physicMaterial linguist-language=Text
 *.inputactions linguist-language=Text
+tutorialinfo/** linguist-generated
+
 
 *.meta linguist-generated
 
